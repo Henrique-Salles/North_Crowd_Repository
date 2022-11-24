@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NC System - Estoque</title>
+    <link rel="shortcut icon" href="../system images/NC-Icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../system css/estoque.css">
+    <link rel="stylesheet" href="../system css/general.css">
+    <script src="../system js/principal.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="../system images/nc-system.png" width="110px">
+        </div>
+
+        <div id="welcome">
+            <p id="pt1">Estoque</p>
+        </div>
+
+        <div id="quit">
+            <a href="../system pages/login.html"></a><button id="quit-b" onclick="sair()">Sair</button>
+        </div>
+    </header>
+
+    <div id="container">
+        <div id="principal">
+
+            <div id="parteA">
+                <input type="text" id="search" placeholder="Pesquisar">
+                <a href="estoque-add.html"><button id="add"><img src="../system images/plus.PNG" width="22px">Adicionar</button></a>
+                <a href="principal.html"><button id="return"><img src="../system images/logout.PNG" width="22px">Voltar</button></a>
+            </div>
+
+            <div id="parteB">
+                <table border="1">
+                    <tr>
+                        <th id="cl1">Nome do produto</th>
+                        <th id="cl2">Quantidade atual</th>
+                        <th id="cl3">Variação</th>
+                        <th id="cl6">Ações</th>
+                    </tr>
+
+                    <tr>
+                        <td>Camisa Jogador NC Logo Completa</td>
+                        <td>89</td>
+                        <td>M - Preta</td>
+                        <td id="acoes">
+                            <button id="edit" onclick="estoqueEdi()"></button> <button id="erase" onclick="excluirProduto()"></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Camisa Jogador NC Logo Completa</td>
+                        <td>29</td>
+                        <td>G - Preta</td>
+                        <td id="acoes">
+                            <button id="edit"></button> <button id="erase"></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Camisa Jogador NC Logo Completa</td>
+                        <td>47</td>
+                        <td>P - Preta</td>
+                        <td id="acoes">
+                            <button id="edit"></button> <button id="erase"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Camisa Jogador NC Logo Completa</td>
+                        <td>37</td>
+                        <td>GG - Preta</td>
+                        <td id="acoes">
+                            <button id="edit"></button> <button id="erase"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Camisa Jogador NC Logo Completa</td>
+                        <td>79</td>
+                        <td>M - Azul</td>
+                        <td id="acoes">
+                            <button id="edit"></button> <button id="erase"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Camisa Jogador NC Logo Completa</td>
+                        <td>20</td>
+                        <td>XG - Oliva</td>
+                        <td id="acoes">
+                            <button id="edit"></button> <button id="erase"></button>
+                        </td>
+                    </tr>
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

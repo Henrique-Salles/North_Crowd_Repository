@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NC System - Vendas</title>
+    <link rel="shortcut icon" href="../system images/NC-Icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../system css/vendas.css">
+    <link rel="stylesheet" href="../system css/general.css">
+    <script src="../system js/principal.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="../system images/nc-system.png" width="110px">
+        </div>
+
+        <div id="welcome">
+            <p id="pt1">Vendas</p>
+        </div>
+
+        <div id="quit">
+            <a href="../system pages/login.html"></a><button id="quit-b" onclick="sair()">Sair</button>
+        </div>
+    </header>
+
+    <div id="container">
+        <div id="principal">
+
+            <div id="parteA">
+                <input type="text" id="search" placeholder="Pesquisar">
+                <a href="vendas-add.html"><button id="add"><img src="../system images/plus.PNG" width="22px">Resgistrar</button></a>
+                <a href="principal.html"><button id="return"><img src="../system images/logout.PNG" width="22px">Voltar</button></a>
+            </div>
+
+            <div id="parteB">
+                <table border="1">
+                    <tr>
+                        <th id="cl1">Cliente</th>
+                        <th id="cl2">Data da venda</th>
+                        <th id="cl3">Produtos</th>
+                        <th id="cl4">Valor total</th>
+                        <th id="cl6">Ações</th>
+                    </tr>
+
+                    <tr>
+                        <td>Carlos Henrique Salles Manhães</td>
+                        <td>21/08/2022</td>
+                        <td>Camisa Jogador NC Preta GG</td>
+                        <td>R$ 80,00</td>
+                        <td id="acoes">
+                            <button id="erase" onclick="excluirVenda()"></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Samuel Oliveira</td>
+                        <td>20/08/2022</td>
+                        <td>2x Camisa Jogador NC Oliva XG</td>
+                        <td>R$ 160,00</td>
+                        <td id="acoes">
+                            <button id="erase"></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Antônio Carlos</td>
+                        <td>19/08/2022</td>
+                        <td>Camisa Jogador NC Branco GG</td>
+                        <td>R$ 80,00</td>
+                        <td id="acoes">
+                            <button id="erase"></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Ryan Lucas</td>
+                        <td>19/08/2022</td>
+                        <td>Camisa Jogador NC Azul M</td>
+                        <td>R$ 80,00</td>
+                        <td id="acoes">
+                            <button id="erase"></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Atuesta Gomez</td>
+                        <td>19/08/2022</td>
+                        <td>Camisa Jogador NC Preta P</td>
+                        <td>R$ 80,00</td>
+                        <td id="acoes">
+                            <button id="erase"></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Piquerez Barbosa</td>
+                        <td>15/08/2022</td>
+                        <td>Camisa Jogador NC Amarela G</td>
+                        <td>R$ 80,00</td>
+                        <td id="acoes">
+                            <button id="erase"></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Giorgian de Veiga</td>
+                        <td>11/08/2022</td>
+                        <td>Camisa Jogador NC Preta GG</td>
+                        <td>R$ 80,00</td>
+                        <td id="acoes">
+                            <button id="erase"></button>
+                        </td>
+                    </tr>
+                    
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

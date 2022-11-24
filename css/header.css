@@ -1,0 +1,102 @@
+/* CABEÇALHO / HEADER */
+
+header {
+    font-size: 16pt;
+
+    display:flex;
+	position: fixed;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 94px;
+
+    background-color: white;
+
+    transition: 0.4s;
+}
+
+.HeaderClass.active { 
+    backdrop-filter: blur(8px);  
+    background: none; 
+}
+
+/*------Logo e botões de navegação-------*/
+
+.logo {
+    width: 170px;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    background-color: rgb(255, 255, 255);
+    filter: invert(100%);
+    padding: 16px;
+
+}
+
+nav li {
+    display: flex;
+}
+
+nav ul {
+    font-style: bolder;
+    margin-right: 50px;
+}
+
+nav ul:hover {
+    color: rgb(173, 173, 173);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav li ul a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+nav li ul a:hover {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+
+/* FOOTER / RODAPÉ */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+#ftA{
+    padding-left: 50px;
+}
+
+#ftB h4{
+    font-weight: lighter;
+}
+
+#rio-f{
+    margin-bottom: 10px;
+}
+
+#ftC{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#ftC img{
+    margin-right: 30px;
+}

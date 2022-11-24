@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NC System - Editar Entrega</title>
+    <link rel="shortcut icon" href="../system images/NC-Icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../system css/entregas-edit.css">
+    <link rel="stylesheet" href="../system css/general.css">
+    <script src="../system js/principal.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="../system images/nc-system.png" width="110px">
+        </div>
+
+        <div id="welcome">
+            <p id="pt1">Editar Entrega</p>
+        </div>
+
+        <div id="quit">
+            <a href="../system pages/login.html"></a><button id="quit-b" onclick="sair()">Sair</button>
+        </div>
+    </header>
+
+    <div id="container">
+        <div id="principal">
+
+            <div id="parteA">
+                
+                <h4>Endereço</h4>
+                <input type="text" id="endereco" placeholder="Rua Gomes de Sá, N° 84, Santa Cruz - RJ">
+
+                <h4>Entregue?</h4>
+                <select id="seletor">
+                    <option value="Gerente">Sim</option>
+                    <option value="Estoquista">Não</option>
+                    <option value="Atendente">Cancelada</option>
+                </select>
+            </div>
+
+            <div id="parteB">
+                <a href="entregas.html"><button id="add" onclick="editEntrega()"><img src="../system images/pencil.PNG" width="22px">Confirmar</button></a>
+                <a href="entregas.html"><button id="return"><img src="../system images/logout.PNG" width="22px">Voltar</button></a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

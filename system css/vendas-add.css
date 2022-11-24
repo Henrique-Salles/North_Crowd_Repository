@@ -1,0 +1,102 @@
+#container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 475px;
+    background-color: white;
+    border-radius: 0px 15px 0px 15px;
+}
+
+#parteA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 410px;
+    padding-left: 75px;
+}
+
+
+#parteA input{
+    background-repeat: no-repeat;
+    margin: 10px 0px 30px 0px;
+    width: 525px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 45px;
+    background-color: #fff;
+    background-position: 10px;
+    border: solid #003;
+    border-width: 0px 0px 1px 0px;
+}
+
+#nome{
+    background-image: url("../system images/user.png");
+}
+#zap{
+    background-image: url("../system images/box.png");
+}
+#data{
+    background-image: url("../system images/cash.PNG");
+}
+
+#add, #return{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: solid #003;
+    border-width: 1px;
+    border-radius: 7px 3px 7px 3px;
+    height: 30px;
+    width: 105px;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#add img, #return img {
+    margin-right: 4px;
+}
+
+#add:hover, #return:hover {
+    filter: invert(100%);
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+#add{
+    margin-right: 15px;
+}
+
+
+#parteB {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#seletor{
+    background-image: url("../system images/icone-usuario.PNG");
+    background-repeat: no-repeat;
+    margin: 10px 0px 30px 0px;
+    width: 525px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 45px;
+    background-color: #fff;
+    background-position: 10px;
+    border: solid #003;
+    border-width: 0px 0px 1px 0px;
+}

@@ -1,0 +1,68 @@
+    @font-face {
+        font-family: 'Fredoka';
+        src: url(../fonts/Fredoka-Regular.ttf);
+    }
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    }
+
+    body{
+        background-image: linear-gradient(70deg, rgb(0, 0, 0), rgb(54, 54, 54),rgb(105, 104, 104));
+        background-size: 180%;
+        background-repeat: no-repeat;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    /* HEADER */
+
+    header{
+        background-color: white;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #logo{
+        margin-left: 30px;
+    }
+    
+    #welcome{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+    }
+    
+    #pt1{
+        font-size: 2rem;
+    }
+    
+    #quit{
+        margin-right: 30px;
+    }
+    
+    #quit-b{
+        color: white;
+        background: black;
+        border-radius: 3px 7px 3px 7px;
+        height: 30px;
+        width: 80px;
+        font-size: 1rem;
+        transition: 0.5s;
+    }
+    
+    #quit-b:hover{
+        letter-spacing: 1px;
+        background: rgb(212, 21, 21);
+        border: solid #003;
+        border-width: 1px;
+    }
+

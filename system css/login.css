@@ -1,0 +1,91 @@
+/* #container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 auto;
+
+    background: #0000 url('../images/TESTE.jpg');
+} */
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+#nc-login {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 15px 0px 15px;
+  text-align: center;
+}
+
+#login h4 {
+  margin: 10px 0px 10px 75px;
+  text-align: left;
+}
+
+input {
+  width: 70%;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding-left: 45px;
+
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 10px;
+
+  border: solid #003;
+  border-width: 0px 0px 1px 0px;
+}
+
+input.user {
+  background-image: url("../system images/icone-usuario.png");
+}
+
+input.senha {
+  background-image: url("../system images/icone-cadeado.png");
+}
+
+input.submit {
+  margin: 15px 0px 20px 0px;
+  color: rgb(255, 255, 255);
+  background: black;
+  border-radius: 10px 5px 10px 5px;
+  padding: 5px;
+  height: 40px;
+  width: 40%;
+  transition: 0.5s;
+}
+
+input.submit:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  letter-spacing: 3px;
+  background: white;
+  border: solid #003;
+  border-width: 2px;
+}
+
+#nca {
+  color: black;
+  transition: 0.5s;
+}
+
+#nca:hover {
+  font-size: larger;
+}
+
+#aviso {
+  margin-top: 25px;
+  color: rgba(0, 0, 0, 0.649);
+}
