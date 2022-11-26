@@ -7,6 +7,12 @@
     font-weight: bolder;
 }
 
+#text{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
 #container{
     display: flex;
     justify-content: center;
@@ -23,28 +29,29 @@
     border-radius: 0px 15px 0px 15px;
 }
 
-#parteA{
+/* #parteA{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
-}
+} */
 
 #parteB{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 
-#parteC{
+/* #parteC{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-}
+} */
 
 .but{
     display: flex;
@@ -70,16 +77,16 @@
     filter: invert(100%);
     color: rgb(0, 0, 0);
     background: rgb(255, 255, 255);
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
 }
 
 #add{
     margin-right: 15px;
 }
 
-#ladin{
+/* #ladin{
     margin-right: 40px;
-}
+} */
 
 button img{
     margin-right: 7px;

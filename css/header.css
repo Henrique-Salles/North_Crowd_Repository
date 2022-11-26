@@ -26,6 +26,7 @@ header {
 .logo {
     width: 170px;
     transition: 0.5s;
+    margin-right: 250px;
 }
 
 .logo:hover {
