@@ -1,4 +1,4 @@
-#container {
+    #container {
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -39,10 +39,13 @@
 #nome{
     background-image: url("../system images/product.png");
 }
-#email{
+#id {
+    background-image: url("../system images/info.png");
+}
+#quantidadeatual{
     background-image: url("../system images/id.png");
 }
-#zap{
+#variacao{
     background-image: url("../system images/box.png");
 }
 
