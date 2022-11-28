@@ -16,7 +16,7 @@
 
 # Descrição
 
-Projeto em desenvolvimento iniciado para disciplina Projeto Final do curso técnito de informática integrado ao ensino médio. North Crowd é um ideia de loja fictícia de
+Projeto em desenvolvimento iniciado para disciplina Projeto Final do curso técnico de informática integrado ao ensino médio. North Crowd é um ideia de loja fictícia de
 roupas do estilo Surfwear. Neste repositório você encontra o projeto de e-commerce da North Crowd. Um site da loja e até mesmo um projeto de controle do estoque, com login
 e cadastro, que permitirá ao usuário (funcionário da loja) manter (adicionar, consultar, editar e excluir produtos) o estoque.
 
