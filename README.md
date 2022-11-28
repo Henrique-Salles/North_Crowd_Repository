@@ -46,7 +46,7 @@ e cadastro, que permitirá ao usuário (funcionário da loja) manter (adicionar,
 
 # Acesso ao projeto
 
-Após baixar o projeto, você pode abri-lo com o Visual Studio, caso o arquivo esteja como uma pasta .ZIP, é necessário extraí-la antes de abrir o projeto.
+Após baixar o projeto, você pode abri-lo com o Visual Studio Code, caso o arquivo esteja como uma pasta .ZIP, é necessário extraí-la antes de abrir o projeto.
 
 # Tecnologias utilizadas
 
