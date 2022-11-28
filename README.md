@@ -8,11 +8,11 @@
 
 * [Título e Imagem de capa](#Título-e-Imagem-de-capa)
 * [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Descrição do Projeto](#descrição)
+* [Funcionalidades do Projeto](#funcionalidades-do-projeto)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+* [Pessoas Desenvolvedoras do Projeto](#autores)
 
 # Descrição
 
@@ -20,7 +20,7 @@ Projeto em desenvolvimento iniciado para disciplina Projeto Final do curso técn
 roupas do estilo Surfwear. Neste repositório você encontra o projeto de e-commerce da North Crowd. Um site da loja e até mesmo um projeto de controle do estoque, com login
 e cadastro, que permitirá ao usuário (funcionário da loja) manter (adicionar, consultar, editar e excluir produtos) o estoque.
 
-# :hammer: Funcionalidades do projeto
+# Funcionalidades do projeto
 
 - `Funcionalidade 1`: Login e cadastro do usuário.
 
@@ -44,7 +44,7 @@ e cadastro, que permitirá ao usuário (funcionário da loja) manter (adicionar,
 
 ![Mensagem de confirmação após o usuário tentar excluir um produto do estoque](https://user-images.githubusercontent.com/62960702/204160275-cfe27f24-5c4b-49f3-8178-398a2dd99c09.png)
 
-# :hammer: Abrir e rodar o projeto
+# Acesso ao projeto
 
 Após baixar o projeto, você pode abri-lo com o Android Studio, caso o arquivo esteja como uma pasta .ZIP, é necessário extraí-la antes de abrir o projeto.
 
