@@ -12,7 +12,7 @@
 * [Funcionalidades do Projeto](#funcionalidades-do-projeto)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Desenvolvedoras do Projeto](#autores)
+* [Desenvolvedores do Projeto](#autores)
 
 # Descrição
 
