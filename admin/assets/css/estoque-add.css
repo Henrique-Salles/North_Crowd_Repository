@@ -37,16 +37,16 @@
 }
 
 #nome{
-    background-image: url("../system images/product.png");
+    background-image: url("../images/product.png");
 }
 #id {
-    background-image: url("../system images/info.png");
+    background-image: url("../images/info.png");
 }
 #quantidadeatual{
-    background-image: url("../system images/id.png");
+    background-image: url("../images/id.png");
 }
 #variacao{
-    background-image: url("../system images/box.png");
+    background-image: url("../images/box.png");
 }
 
 #add, #return{

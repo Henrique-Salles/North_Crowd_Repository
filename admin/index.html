@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NC System - Início</title>
+    <link rel="shortcut icon" href="../NC-Icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/principal.css">
+    <link rel="stylesheet" href="assets/css/general.css">
+    <script src="assets/js/principal.js" defer></script>
+</head>
+
+<body onload="printInfo()">
+
+    <header>
+        <div id="logo" >
+            <img src="assets/images/nc-system.png" width="110px">
+        </div>
+
+        <div id="welcome">
+            <p id="pt1">Boas vindas,</p>
+            <p id="pt2"></p>
+        </div>
+
+        <div id="quit">
+            <a href="pages/login.html"></a><button id="quit-b" onclick="sair()">Sair</button>
+        </div>
+    </header>
+
+    <div id="container">
+        <div id="principal">
+
+            <p id="text">Deseja verificar o estoque?</p>
+            <!-- <div id="parteA">
+                <button class="but" id="ladin" onclick="clientes()"><img src="assets/images/users.PNG" width="22px">Clientes</button>
+                <button class="but" onclick="funcionarios()"><img src="assets/images/user.PNG" width="22px">Funcionários</button>
+            </div> -->
+
+            <div id="parteB">
+                <!-- <button class="but" id="ladin" onclick="vendas()"><img src="assets/images/cash.PNG" width="22px">Vendas</button> -->
+                <button class="but" onclick="estoque()"><img src="assets/images/product.png" width="30px">Verificar estoque</button>
+            </div>
+
+            <!-- <div id="parteC">
+                <button class="but" onclick="entregas()"><img src="assets/images/house.PNG" width="22px">Entregas</button>
+            </div> -->
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

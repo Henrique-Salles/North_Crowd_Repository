@@ -49,11 +49,11 @@ input {
 }
 
 input.user {
-  background-image: url("../system images/icone-usuario.png");
+  background-image: url("../images/icone-usuario.png");
 }
 
 input.senha {
-  background-image: url("../system images/icone-cadeado.png");
+  background-image: url("../images/icone-cadeado.png");
 }
 
 input.submit {

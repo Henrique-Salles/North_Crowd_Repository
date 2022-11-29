@@ -9,7 +9,7 @@ formMain.addEventListener("submit", (s) => {
     inputs.forEach((input) => {
         localStorage.setItem(input.id, input.value)})
 
-    window.location = "../system pages/login.html"
+    window.location = "../pages/login.html"
 })
 
 let senha = document.getElementById('senha');

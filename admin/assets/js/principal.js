@@ -7,7 +7,7 @@ function printInfo() {
 function sair() {
     var s = confirm("Deseja realmente sair do sistema?");
     if (s == true) {
-        window.location = "../system pages/login.html"
+        window.location = "../pages/login.html"
     }
 }
 
@@ -31,7 +31,7 @@ function addProd() {
 // }
 
 // function editCli() {
-//     window.location = "../system pages/clientes-edit.html"
+//     window.location = "../pages/clientes-edit.html"
 // }
 
 // function excluirFunc() {
@@ -68,11 +68,11 @@ function excluirProduto() {
 // }
 
 // function editFunc() {
-//     window.location = "../system pages/funcionarios-edit.html"
+//     window.location = "../pages/funcionarios-edit.html"
 // }
 
 // function editarEntrega() {
-//         window.location = "../system pages/entregas-edit.html"
+//         window.location = "../pages/entregas-edit.html"
 //     }
 
 //     function editEntrega() {
@@ -84,22 +84,22 @@ function excluirProduto() {
     }
 
     // function vendas() {
-    //     window.location = "../system pages/vendas.html"
+    //     window.location = "../pages/vendas.html"
     // }
     function estoque() {
-        window.location = "../system pages/estoque.html"
+        window.location = "../pages/estoque.html"
     }
     // function clientes() {
-    //     window.location = "../system pages/clientes.html"
+    //     window.location = "../pages/clientes.html"
     // }
     // function funcionarios() {
-    //     window.location = "../system pages/funcionarios.html"
+    //     window.location = "../pages/funcionarios.html"
     // }
     // function entregas() {
-    //     window.location = "../system pages/entregas.html"
+    //     window.location = "../pages/entregas.html"
     // }
 
     function estoqueEdi() {
-        window.location = "../system pages/estoque-edit.html"
+        window.location = "../pages/estoque-edit.html"
     }
 
