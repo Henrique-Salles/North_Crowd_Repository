@@ -9,7 +9,7 @@ loginForm.addEventListener("submit", (e) => {
 
     if ((usernameInput.value === localStorage.getItem("usuario")) &&
         (passwordInput.value === localStorage.getItem("senha"))) {
-        window.location = "../system pages/principal.html"
+        window.location = "../pages/principal.html"
     }
     else {
         alert("NC Code ou senha incorretos!")

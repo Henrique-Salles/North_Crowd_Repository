@@ -23,7 +23,7 @@
 }
 
 #search {
-    background-image: url("../system images/search.png");
+    background-image: url("../images/search.png");
     background-repeat: no-repeat;
 
     margin-right: 405px;
@@ -110,11 +110,11 @@
 }
 
 #edit {
-    background-image: url("../system images/useredit.PNG");
+    background-image: url("../images/useredit.PNG");
 }
 
 #erase {
-    background-image: url("../system images/lixeira.PNG");
+    background-image: url("../images/lixeira.PNG");
 }
 
 #edit,

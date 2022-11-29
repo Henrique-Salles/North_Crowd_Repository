@@ -72,19 +72,19 @@ body{
 }
 
 #nome{
-    background-image: url("../system images/user.png");
+    background-image: url("../images/user.png");
 }
 #sobrenome{
-    background-image: url("../system images/user.png");
+    background-image: url("../images/user.png");
 }
 #usuario{
-    background-image: url("../system images/id.png");
+    background-image: url("../images/id.png");
 }
 #senha{
-    background-image: url("../system images/icone-cadeado.PNG");
+    background-image: url("../images/icone-cadeado.PNG");
 }
 #senha-conf{
-    background-image: url("../system images/olho.png");
+    background-image: url("../images/olho.png");
 }
 
 #submit {
